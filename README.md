@@ -1,14 +1,4 @@
 <div>
-  <picture>
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=Argam11&show_icons=true&theme=dark"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=Argam11&show_icons=true"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://github-readme-stats.vercel.app/api?username=Argam11&show_icons=true" />
-  </picture>
-  <img height='195px' src='https://github-readme-stats.vercel.app/api/top-langs/?username=Argam11&layout=compact' alt='top langs' />
+
+  <img height='195px' src='https://cdn.prod.website-files.com/676400f6f62da63171a60007/68db29abe3913638458cefa2_68d9d7c1e3dd4bddfa557a6f-1759192883250.jpeg' alt='top langs' />
 </div>

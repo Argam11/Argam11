@@ -1,0 +1,377 @@
+    <svg
+      width="480"
+      height="110"
+      viewBox="0 0 480 110"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <style>
+        rect {
+          width: 10px;
+          height: 10px;
+          rx: 2;
+          ry: 2;
+        }
+        .bg {
+          fill: #9be9a8;
+        } /* Light Green Background */
+        .name {
+          fill: #216e39;
+        } /* Dark Green Name */
+      </style>
+
+      <g transform="translate(10, 10)">
+        <!-- 1. BACKGROUND GRID (7 rows x 35 columns) -->
+        <!-- I am using a simple trick to generate the background for the whole area -->
+        <g id="full-grid">
+          <g opacity="1">
+            <!-- Rows 0 to 6 -->
+            <rect x="0" y="0" class="bg" />
+            <rect x="13" y="0" class="bg" />
+            <rect x="26" y="0" class="bg" />
+            <rect x="39" y="0" class="bg" />
+            <rect x="52" y="0" class="bg" />
+            <rect x="65" y="0" class="bg" />
+            <rect x="78" y="0" class="bg" />
+            <rect x="91" y="0" class="bg" />
+            <rect x="104" y="0" class="bg" />
+            <rect x="117" y="0" class="bg" />
+            <rect x="130" y="0" class="bg" />
+            <rect x="143" y="0" class="bg" />
+            <rect x="156" y="0" class="bg" />
+            <rect x="169" y="0" class="bg" />
+            <rect x="182" y="0" class="bg" />
+            <rect x="195" y="0" class="bg" />
+            <rect x="208" y="0" class="bg" />
+            <rect x="221" y="0" class="bg" />
+            <rect x="234" y="0" class="bg" />
+            <rect x="247" y="0" class="bg" />
+            <rect x="260" y="0" class="bg" />
+            <rect x="273" y="0" class="bg" />
+            <rect x="286" y="0" class="bg" />
+            <rect x="299" y="0" class="bg" />
+            <rect x="312" y="0" class="bg" />
+            <rect x="325" y="0" class="bg" />
+            <rect x="338" y="0" class="bg" />
+            <rect x="351" y="0" class="bg" />
+            <rect x="364" y="0" class="bg" />
+            <rect x="377" y="0" class="bg" />
+            <rect x="390" y="0" class="bg" />
+            <rect x="403" y="0" class="bg" />
+            <rect x="416" y="0" class="bg" />
+            <rect x="429" y="0" class="bg" />
+            <rect x="442" y="0" class="bg" />
+            <rect x="0" y="13" class="bg" />
+            <rect x="13" y="13" class="bg" />
+            <rect x="26" y="13" class="bg" />
+            <rect x="39" y="13" class="bg" />
+            <rect x="52" y="13" class="bg" />
+            <rect x="65" y="13" class="bg" />
+            <rect x="78" y="13" class="bg" />
+            <rect x="91" y="13" class="bg" />
+            <rect x="104" y="13" class="bg" />
+            <rect x="117" y="13" class="bg" />
+            <rect x="130" y="13" class="bg" />
+            <rect x="143" y="13" class="bg" />
+            <rect x="156" y="13" class="bg" />
+            <rect x="169" y="13" class="bg" />
+            <rect x="182" y="13" class="bg" />
+            <rect x="195" y="13" class="bg" />
+            <rect x="208" y="13" class="bg" />
+            <rect x="221" y="13" class="bg" />
+            <rect x="234" y="13" class="bg" />
+            <rect x="247" y="13" class="bg" />
+            <rect x="260" y="13" class="bg" />
+            <rect x="273" y="13" class="bg" />
+            <rect x="286" y="13" class="bg" />
+            <rect x="299" y="13" class="bg" />
+            <rect x="312" y="13" class="bg" />
+            <rect x="325" y="13" class="bg" />
+            <rect x="338" y="13" class="bg" />
+            <rect x="351" y="13" class="bg" />
+            <rect x="364" y="13" class="bg" />
+            <rect x="377" y="13" class="bg" />
+            <rect x="390" y="13" class="bg" />
+            <rect x="403" y="13" class="bg" />
+            <rect x="416" y="13" class="bg" />
+            <rect x="429" y="13" class="bg" />
+            <rect x="442" y="13" class="bg" />
+            <rect x="0" y="26" class="bg" />
+            <rect x="13" y="26" class="bg" />
+            <rect x="26" y="26" class="bg" />
+            <rect x="39" y="26" class="bg" />
+            <rect x="52" y="26" class="bg" />
+            <rect x="65" y="26" class="bg" />
+            <rect x="78" y="26" class="bg" />
+            <rect x="91" y="26" class="bg" />
+            <rect x="104" y="26" class="bg" />
+            <rect x="117" y="26" class="bg" />
+            <rect x="130" y="26" class="bg" />
+            <rect x="143" y="26" class="bg" />
+            <rect x="156" y="26" class="bg" />
+            <rect x="169" y="26" class="bg" />
+            <rect x="182" y="26" class="bg" />
+            <rect x="195" y="26" class="bg" />
+            <rect x="208" y="26" class="bg" />
+            <rect x="221" y="26" class="bg" />
+            <rect x="234" y="26" class="bg" />
+            <rect x="247" y="26" class="bg" />
+            <rect x="260" y="26" class="bg" />
+            <rect x="273" y="26" class="bg" />
+            <rect x="286" y="26" class="bg" />
+            <rect x="299" y="26" class="bg" />
+            <rect x="312" y="26" class="bg" />
+            <rect x="325" y="26" class="bg" />
+            <rect x="338" y="26" class="bg" />
+            <rect x="351" y="26" class="bg" />
+            <rect x="364" y="26" class="bg" />
+            <rect x="377" y="26" class="bg" />
+            <rect x="390" y="26" class="bg" />
+            <rect x="403" y="26" class="bg" />
+            <rect x="416" y="26" class="bg" />
+            <rect x="429" y="26" class="bg" />
+            <rect x="442" y="26" class="bg" />
+            <rect x="0" y="39" class="bg" />
+            <rect x="13" y="39" class="bg" />
+            <rect x="26" y="39" class="bg" />
+            <rect x="39" y="39" class="bg" />
+            <rect x="52" y="39" class="bg" />
+            <rect x="65" y="39" class="bg" />
+            <rect x="78" y="39" class="bg" />
+            <rect x="91" y="39" class="bg" />
+            <rect x="104" y="39" class="bg" />
+            <rect x="117" y="39" class="bg" />
+            <rect x="130" y="39" class="bg" />
+            <rect x="143" y="39" class="bg" />
+            <rect x="156" y="39" class="bg" />
+            <rect x="169" y="39" class="bg" />
+            <rect x="182" y="39" class="bg" />
+            <rect x="195" y="39" class="bg" />
+            <rect x="208" y="39" class="bg" />
+            <rect x="221" y="39" class="bg" />
+            <rect x="234" y="39" class="bg" />
+            <rect x="247" y="39" class="bg" />
+            <rect x="260" y="39" class="bg" />
+            <rect x="273" y="39" class="bg" />
+            <rect x="286" y="39" class="bg" />
+            <rect x="299" y="39" class="bg" />
+            <rect x="312" y="39" class="bg" />
+            <rect x="325" y="39" class="bg" />
+            <rect x="338" y="39" class="bg" />
+            <rect x="351" y="39" class="bg" />
+            <rect x="364" y="39" class="bg" />
+            <rect x="377" y="39" class="bg" />
+            <rect x="390" y="39" class="bg" />
+            <rect x="403" y="39" class="bg" />
+            <rect x="416" y="39" class="bg" />
+            <rect x="429" y="39" class="bg" />
+            <rect x="442" y="39" class="bg" />
+            <rect x="0" y="52" class="bg" />
+            <rect x="13" y="52" class="bg" />
+            <rect x="26" y="52" class="bg" />
+            <rect x="39" y="52" class="bg" />
+            <rect x="52" y="52" class="bg" />
+            <rect x="65" y="52" class="bg" />
+            <rect x="78" y="52" class="bg" />
+            <rect x="91" y="52" class="bg" />
+            <rect x="104" y="52" class="bg" />
+            <rect x="117" y="52" class="bg" />
+            <rect x="130" y="52" class="bg" />
+            <rect x="143" y="52" class="bg" />
+            <rect x="156" y="52" class="bg" />
+            <rect x="169" y="52" class="bg" />
+            <rect x="182" y="52" class="bg" />
+            <rect x="195" y="52" class="bg" />
+            <rect x="208" y="52" class="bg" />
+            <rect x="221" y="52" class="bg" />
+            <rect x="234" y="52" class="bg" />
+            <rect x="247" y="52" class="bg" />
+            <rect x="260" y="52" class="bg" />
+            <rect x="273" y="52" class="bg" />
+            <rect x="286" y="52" class="bg" />
+            <rect x="299" y="52" class="bg" />
+            <rect x="312" y="52" class="bg" />
+            <rect x="325" y="52" class="bg" />
+            <rect x="338" y="52" class="bg" />
+            <rect x="351" y="52" class="bg" />
+            <rect x="364" y="52" class="bg" />
+            <rect x="377" y="52" class="bg" />
+            <rect x="390" y="52" class="bg" />
+            <rect x="403" y="52" class="bg" />
+            <rect x="416" y="52" class="bg" />
+            <rect x="429" y="52" class="bg" />
+            <rect x="442" y="52" class="bg" />
+            <rect x="0" y="65" class="bg" />
+            <rect x="13" y="65" class="bg" />
+            <rect x="26" y="65" class="bg" />
+            <rect x="39" y="65" class="bg" />
+            <rect x="52" y="65" class="bg" />
+            <rect x="65" y="65" class="bg" />
+            <rect x="78" y="65" class="bg" />
+            <rect x="91" y="65" class="bg" />
+            <rect x="104" y="65" class="bg" />
+            <rect x="117" y="65" class="bg" />
+            <rect x="130" y="65" class="bg" />
+            <rect x="143" y="65" class="bg" />
+            <rect x="156" y="65" class="bg" />
+            <rect x="169" y="65" class="bg" />
+            <rect x="182" y="65" class="bg" />
+            <rect x="195" y="65" class="bg" />
+            <rect x="208" y="65" class="bg" />
+            <rect x="221" y="65" class="bg" />
+            <rect x="234" y="65" class="bg" />
+            <rect x="247" y="65" class="bg" />
+            <rect x="260" y="65" class="bg" />
+            <rect x="273" y="65" class="bg" />
+            <rect x="286" y="65" class="bg" />
+            <rect x="299" y="65" class="bg" />
+            <rect x="312" y="65" class="bg" />
+            <rect x="325" y="65" class="bg" />
+            <rect x="338" y="65" class="bg" />
+            <rect x="351" y="65" class="bg" />
+            <rect x="364" y="65" class="bg" />
+            <rect x="377" y="65" class="bg" />
+            <rect x="390" y="65" class="bg" />
+            <rect x="403" y="65" class="bg" />
+            <rect x="416" y="65" class="bg" />
+            <rect x="429" y="65" class="bg" />
+            <rect x="442" y="65" class="bg" />
+            <rect x="0" y="78" class="bg" />
+            <rect x="13" y="78" class="bg" />
+            <rect x="26" y="78" class="bg" />
+            <rect x="39" y="78" class="bg" />
+            <rect x="52" y="78" class="bg" />
+            <rect x="65" y="78" class="bg" />
+            <rect x="78" y="78" class="bg" />
+            <rect x="91" y="78" class="bg" />
+            <rect x="104" y="78" class="bg" />
+            <rect x="117" y="78" class="bg" />
+            <rect x="130" y="78" class="bg" />
+            <rect x="143" y="78" class="bg" />
+            <rect x="156" y="78" class="bg" />
+            <rect x="169" y="78" class="bg" />
+            <rect x="182" y="78" class="bg" />
+            <rect x="195" y="78" class="bg" />
+            <rect x="208" y="78" class="bg" />
+            <rect x="221" y="78" class="bg" />
+            <rect x="234" y="78" class="bg" />
+            <rect x="247" y="78" class="bg" />
+            <rect x="260" y="78" class="bg" />
+            <rect x="273" y="78" class="bg" />
+            <rect x="286" y="78" class="bg" />
+            <rect x="299" y="78" class="bg" />
+            <rect x="312" y="78" class="bg" />
+            <rect x="325" y="78" class="bg" />
+            <rect x="338" y="78" class="bg" />
+            <rect x="351" y="78" class="bg" />
+            <rect x="364" y="78" class="bg" />
+            <rect x="377" y="78" class="bg" />
+            <rect x="390" y="78" class="bg" />
+            <rect x="403" y="78" class="bg" />
+            <rect x="416" y="78" class="bg" />
+            <rect x="429" y="78" class="bg" />
+            <rect x="442" y="78" class="bg" />
+          </g>
+        </g>
+
+        <!-- 2. DARK GREEN LETTERS (ARGAM) with 2-column gaps -->
+        <g id="name-layer">
+          <!-- Letter A (Columns 1-5: x=13-65) -->
+          <rect x="26" y="0" class="name" />
+          <rect x="39" y="0" class="name" />
+          <rect x="52" y="0" class="name" />
+          <rect x="13" y="13" class="name" />
+          <rect x="65" y="13" class="name" />
+          <rect x="13" y="26" class="name" />
+          <rect x="65" y="26" class="name" />
+          <rect x="13" y="39" class="name" />
+          <rect x="26" y="39" class="name" />
+          <rect x="39" y="39" class="name" />
+          <rect x="52" y="39" class="name" />
+          <rect x="65" y="39" class="name" />
+          <rect x="13" y="52" class="name" />
+          <rect x="65" y="52" class="name" />
+          <rect x="13" y="65" class="name" />
+          <rect x="65" y="65" class="name" />
+          <rect x="13" y="78" class="name" />
+          <rect x="65" y="78" class="name" />
+
+          <!-- Letter R (Columns 8-12: x=104-156, 5 columns wide) -->
+          <rect x="117" y="0" class="name" />
+          <rect x="130" y="0" class="name" />
+          <rect x="143" y="0" class="name" />
+          <rect x="104" y="13" class="name" />
+          <rect x="156" y="13" class="name" />
+          <rect x="104" y="26" class="name" />
+          <rect x="156" y="26" class="name" />
+          <rect x="104" y="39" class="name" />
+          <rect x="117" y="39" class="name" />
+          <rect x="130" y="39" class="name" />
+          <rect x="143" y="39" class="name" />
+          <rect x="104" y="52" class="name" />
+          <rect x="130" y="52" class="name" />
+          <rect x="104" y="65" class="name" />
+          <rect x="143" y="65" class="name" />
+          <rect x="104" y="78" class="name" />
+          <rect x="156" y="78" class="name" />
+
+          <!-- Letter G (Columns 15-19: x=195-247, gap at 182,195) -->
+          <rect x="208" y="0" class="name" />
+          <rect x="221" y="0" class="name" />
+          <rect x="234" y="0" class="name" />
+          <rect x="247" y="0" class="name" />
+          <rect x="195" y="13" class="name" />
+          <rect x="195" y="26" class="name" />
+          <rect x="195" y="39" class="name" />
+          <rect x="221" y="39" class="name" />
+          <rect x="234" y="39" class="name" />
+          <rect x="247" y="39" class="name" />
+          <rect x="195" y="52" class="name" />
+          <rect x="247" y="52" class="name" />
+          <rect x="195" y="65" class="name" />
+          <rect x="247" y="65" class="name" />
+          <rect x="208" y="78" class="name" />
+          <rect x="221" y="78" class="name" />
+          <rect x="234" y="78" class="name" />
+
+          <!-- Letter A (Columns 22-26: x=286-338, gap at 273,286) -->
+          <rect x="299" y="0" class="name" />
+          <rect x="312" y="0" class="name" />
+          <rect x="325" y="0" class="name" />
+          <rect x="286" y="13" class="name" />
+          <rect x="338" y="13" class="name" />
+          <rect x="286" y="26" class="name" />
+          <rect x="338" y="26" class="name" />
+          <rect x="286" y="39" class="name" />
+          <rect x="299" y="39" class="name" />
+          <rect x="312" y="39" class="name" />
+          <rect x="325" y="39" class="name" />
+          <rect x="338" y="39" class="name" />
+          <rect x="286" y="52" class="name" />
+          <rect x="338" y="52" class="name" />
+          <rect x="286" y="65" class="name" />
+          <rect x="338" y="65" class="name" />
+          <rect x="286" y="78" class="name" />
+          <rect x="338" y="78" class="name" />
+
+          <!-- Letter M (Columns 29-33: x=377-429, gap at 364,377) -->
+          <rect x="377" y="0" class="name" />
+          <rect x="429" y="0" class="name" />
+          <rect x="377" y="13" class="name" />
+          <rect x="390" y="13" class="name" />
+          <rect x="416" y="13" class="name" />
+          <rect x="429" y="13" class="name" />
+          <rect x="377" y="26" class="name" />
+          <rect x="403" y="26" class="name" />
+          <rect x="429" y="26" class="name" />
+          <rect x="377" y="39" class="name" />
+          <rect x="403" y="39" class="name" />
+          <rect x="429" y="39" class="name" />
+          <rect x="377" y="52" class="name" />
+          <rect x="429" y="52" class="name" />
+          <rect x="377" y="65" class="name" />
+          <rect x="429" y="65" class="name" />
+          <rect x="377" y="78" class="name" />
+          <rect x="429" y="78" class="name" />
+        </g>
+      </g>
+    </svg>
